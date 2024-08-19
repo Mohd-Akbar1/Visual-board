@@ -1,0 +1,51 @@
+.content {
+   
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  h2 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Mulish';
+  }
+  
+  .chart-container {
+    width: 90%;
+    height: 70vh;
+    
+   
+  }
+  hr{
+    width: 100%;
+    margin: 40px 0px;
+  }
+
+  .Inputbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+  }
+  .inputfiled>input{
+    width: 10vw;
+    padding: 10px 30px;
+    border-radius: 4px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: aliceblue;
+    outline: none;
+  }
+  .inputfiled{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  

@@ -1,0 +1,138 @@
+.firstContainer{
+    display: flex;
+    position: relative;
+  }
+  .left{
+    flex: 2;
+    border: 1px solid rgba(128, 128, 128, 0.296);
+    max-height: 100vh;
+    position: fixed;
+  }
+  .left>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .right{
+    flex: 10;
+  }
+  .header{
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    width: 80%;
+    margin:10px  auto;
+    height: 3rem;
+    border-radius: 5px;
+    display: flex;
+    position: fixed;
+    left: 15rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.025);
+    z-index: 12;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .search{
+    flex: 2;
+  
+    display: flex;
+    color: black;
+    align-items: center;
+  }
+  .glass{
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+  .center{
+    flex: 5;
+   
+  }
+  .info{
+   
+    flex: 2;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:rgba(0, 0, 0, 0.637) ;
+    cursor: pointer;
+  }
+  .mainBody{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    width: 80%;
+    height: 10rem;
+  }
+ 
+  .logo{
+    color: blue;
+  }
+  .firstnavi>p{
+    margin-left: 15px;
+  }
+  .secondnavi>h3{
+    margin-left: 5px;
+    color: rgba(128, 128, 128, 0.766);
+  }
+  .lists>p{
+   display: flex;
+   gap: 15px;
+   margin-left: 15px;
+   font-weight: 16px;
+   margin-bottom: 17px;
+  color: rgba(0, 0, 0, 0.741);
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+  
+    
+    
+  }
+  .firstnavi>p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.741);
+    cursor: pointer;
+  
+  }
+  .firstnavi{
+    margin-bottom: 20px;
+  }
+  .red{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 94px;
+    top: -5px;
+  }
+  .dashnotification{
+    background-color: rgba(255, 0, 0, 0.559);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 12px;
+  }
+  .dashboardNotification{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2px;
+    margin-right: 10px;
+  }
+  #search{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
